@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-image: url('background.jpg');
+                background-size: cover;
+            }
+            nav{
+                float: left;
+                width: 30%;
+                height: 585px;
+                background-image: url('nav.jpg');
+                background-size: cover; 
+            }
+            .form-heading{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: darkblue;  
+				}
+           
+           .help-block{
+               color: darkred;
+               font-size: small;
+           }
+
+           .topnav a {
+				  float: right;
+				  color: #111111;
+				  text-align: center;
+
+				  padding: 14px 16px;
+				  text-decoration: none;
+				  font-size: 17px;
+				}
+
+				.topnav a:hover {
+				  background-color: #ddd;
+				  color: black;
+				}
+          
+        </style>
+
+    
+    </head>
+	
+	<body >
+		<div class="topnav">
+        <a href="../home/home.html" style="text-decoration:underline"><b>Home</b></a>
+      </div>
+        
+		<nav>
+
+		</nav>
+		<center>
+           <div class="heading"> <h1>WELCOME BACK ;) </h1> </div>
+        
+			</br>    </br>
+ 
+       
+            <div class="form-heading">
+              <img src="login.png" height="80px" width="300px">
+            </div>
+			
+			</br>
+			
+			<h3>
+			<form>
+			<div>
+                 Username:  <input type="email"  class="form-control" placeholder="Email" name="email" autofocus required />
+			
+			</br> </br>
+			
+            <div >
+				Password: <input type="password" class="form-control" placeholder="Password" name="password"  required />
+            </div>
+			
+			</br>
+			
+			<div class="form-group">
+				<label for="Loginas">Login as:</label>
+					<select name="Loginas" id="Loginas">
+						<option value="Customer">Customer</option>
+						<option value="Admin">Admin</option>
+						<option value="Manager">Manager</option>
+              
+					</select>
+			</div>
+			
+			</br>
+
+			<button onclick="location.href='display.html'" type="button">
+         LOGIN</button>
+          
+			</h3>
+			</form>
+        </center>
+    </body>
+
+</html>
